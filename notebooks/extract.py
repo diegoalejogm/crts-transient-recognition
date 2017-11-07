@@ -40,3 +40,19 @@ def features(df, num_features):
     feature_dict['percent_difference_flux_percentile'] = measurements.percent_difference_flux_percentile(df.Flux)
     feature_dict['linear_trend'] = measurements.linear_trend(df.Flux, df.Date)
     return feature_dict
+
+def feature_dict(num_features=21):
+    features = [
+        'ID', 'skew', 'std', 'kurtosis', 'beyond1st', 'stetson_j', 'stetson_k', 'max_slope',
+        'amplitude', 'median_absolute_deviation', 'median_buffer_range_percentage', 'pair_slope_trend',
+        'percent_amplitude', 'percent_difference_flux_percentile', 'flux_percentile_ratio_mid20', 
+        'flux_percentile_ratio_mid35', 'flux_percentile_ratio_mid50','flux_percentile_ratio_mid65', 
+        'flux_percentile_ratio_mid80', 'linear_trend'
+    ]
+    if num_features > 19:
+        features.extend(['small_kurtosis','pair_slope_trend_last_30'])
+    if num_features > 21:
+        features.extend(['poly1_a','poly2_a','poly2_b','poly3_a','poly3_b','poly3_c'])
+    if num_features > 27:
+        features.extend(['poly4_a', 'poly4_b', 'poly4_c', 'poly4_d'])
+    return { k:[] for k in features}
