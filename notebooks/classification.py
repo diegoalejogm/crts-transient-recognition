@@ -73,6 +73,7 @@ def rf(X_train, y_train, X_test, y_test, min_obs, num_features, oversample, task
     }
     model = RandomForestClassifier(random_state=0, class_weight='balanced')
     clf2 = train_validate_test_model(X_train, y_train, X_test, y_test, model, params, min_obs, num_features, oversample, task, scaler)
+    return clf2
     
 def mlp(X_train, y_train, X_test, y_test, min_obs, num_features, oversample, task, scaler):
     params = {
