@@ -75,6 +75,7 @@ def binary(min_obs, num_features, remove_ids=True, oversample=False):
     return X_train, X_test, y_train, y_test
 
 def six_transient(min_obs, num_features, remove_ids=True, oversample=False):
+    np.random.seed(42)
     df_cat = load_transient_catalog()
     df_feat_tran = load_transient_features(min_obs, num_features, oversample)
 
@@ -89,6 +90,7 @@ def six_transient(min_obs, num_features, remove_ids=True, oversample=False):
     return X_train, X_test, y_train, y_test
 
 def seven_transient(min_obs, num_features, remove_ids=True, oversample=False):
+    np.random.seed(42)
     df_cat = load_transient_catalog()
     df_feat_tran = load_transient_features(min_obs, num_features, oversample)
     # Add classs label to transient objects
@@ -169,6 +171,7 @@ def load_oversampled_nontransient_features(min_obs, num_features):
     return df_feat_nont                         
     
 def __filter_oversampled_transient__(df_all, task, min_obs, num_features):
+    np.random.seed(42)
 #    print('Loading transient')
     df = df_all
 #    print(df.CopyID.head())
