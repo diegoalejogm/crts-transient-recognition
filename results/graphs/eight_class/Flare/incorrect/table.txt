@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/Flare/incorrect/TranID1512161181174138560.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1512161181174138560.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/Flare/incorrect/TranID1012061010234104635.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1012061010234104635.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/Flare/incorrect/TranID1610211260104103466.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1610211260104103466.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/Flare/incorrect/TranID1505241120834142545.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1505241120834142545.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified Flare sources in the Eight-Class Classification task.}
+  \label{fig:eight_class_Flare_incorrect}
+\end{figure}

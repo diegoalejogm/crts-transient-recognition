@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/Flare/correct/TranID1305121210884131694.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1305121210884131694.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/Flare/correct/TranID1204170210764114312.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1204170210764114312.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/Flare/correct/TranID1001081010294126339.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1001081010294126339.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/Flare/correct/TranID1511181120024103505.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1511181120024103505.}
+  \end{subfigure}
+  \caption{Light Curves of four correctly classified Flare sources in the Six-Transient Classification task.}
+  \label{fig:six_transient_Flare_correct}
+\end{figure}

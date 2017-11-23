@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Other/correct/TranID801111180564113016.png}
+    \caption{Light Curve of \textit{Other} with Transient ID 801111180564113016.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Other/correct/TranID1201021290474146697.png}
+    \caption{Light Curve of \textit{Other} with Transient ID 1201021290474146697.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Other/correct/TranID1303121070564106854.png}
+    \caption{Light Curve of \textit{Other} with Transient ID 1303121070564106854.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Other/correct/TranID905261010764141260.png}
+    \caption{Light Curve of \textit{Other} with Transient ID 905261010764141260.}
+  \end{subfigure}
+  \caption{Light Curves of four correctly classified Other sources in the Seven-Transient Classification task.}
+  \label{fig:seven_transient_Other_correct}
+\end{figure}

@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/SN/incorrect/TranID1004121520304104992.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1004121520304104992.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/SN/incorrect/TranID1501180090594116708.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1501180090594116708.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/SN/incorrect/TranID1212040120274106666.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1212040120274106666.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/SN/incorrect/TranID1603141150754129427.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1603141150754129427.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified Supernova sources in the Seven-Transient Classification task.}
+  \label{fig:seven_transient_SN_incorrect}
+\end{figure}

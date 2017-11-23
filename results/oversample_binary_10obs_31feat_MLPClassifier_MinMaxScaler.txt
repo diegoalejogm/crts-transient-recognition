@@ -1,0 +1,20 @@
+Train Shapes (X, y):  (4994, 31), (4994,)
+Test Shapes (X, y):  (2460, 31), (2460,)
+Unique classes: ['non-transient' 'transient']
+Unique count: [2497 2497]
+Best Params: {'hidden_layer_sizes': (100, 100), 'activation': 'relu', 'alpha': 0.001, 'learning_rate': 'constant'}
+Validation Accuracy: 0.7437
+Test Accuracy: 0.8268
+Report:
+                precision    recall  f1-score   support
+
+non-transient     0.8401    0.8073    0.8234      1230
+    transient     0.8146    0.8463    0.8301      1230
+
+  avg / total     0.8273    0.8268    0.8268      2460
+Confusion Matrix:
+ [[ 993  237]
+ [ 189 1041]]
+Normalized Confusion Matrix:
+ [[ 80.73  19.27]
+ [ 15.37  84.63]]

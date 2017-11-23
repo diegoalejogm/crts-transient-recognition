@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_class/Non-Transient/incorrect/CataID1009079064188.png}
+    \caption{Light Curve of \textit{Non-Transient} with Catalina ID 1009079064188.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_class/Non-Transient/incorrect/CataID1001061036191.png}
+    \caption{Light Curve of \textit{Non-Transient} with Catalina ID 1001061036191.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_class/Non-Transient/incorrect/CataID1007113019532.png}
+    \caption{Light Curve of \textit{Non-Transient} with Catalina ID 1007113019532.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_class/Non-Transient/incorrect/CataID2000331014477.png}
+    \caption{Light Curve of \textit{Non-Transient} with Catalina ID 2000331014477.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified Non-Transient sources in the Seven-Class Classification task.}
+  \label{fig:seven_class_Non-Transient_incorrect}
+\end{figure}

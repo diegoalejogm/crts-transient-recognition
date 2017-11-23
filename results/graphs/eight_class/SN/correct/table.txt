@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/SN/correct/TranID1212071120514101732.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1212071120514101732.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/SN/correct/TranID1102231350604110103.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1102231350604110103.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/SN/correct/TranID901021180674115321.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 901021180674115321.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/SN/correct/TranID1610051290094112842.png}
+    \caption{Light Curve of \textit{Supernova} with Transient ID 1610051290094112842.}
+  \end{subfigure}
+  \caption{Light Curves of four correctly classified Supernova sources in the Eight-Class Classification task.}
+  \label{fig:eight_class_SN_correct}
+\end{figure}

@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/AGN/correct/TranID1511190090264135161.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1511190090264135161.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/AGN/correct/TranID1602271320384111174.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1602271320384111174.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/AGN/correct/TranID1104010150534111525.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1104010150534111525.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/AGN/correct/TranID1105061460454102381.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1105061460454102381.}
+  \end{subfigure}
+  \caption{Light Curves of four correctly classified AGN sources in the Eight-Class Classification task.}
+  \label{fig:eight_class_AGN_correct}
+\end{figure}

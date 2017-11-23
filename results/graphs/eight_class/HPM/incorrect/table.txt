@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/HPM/incorrect/TranID1111031520324144272.png}
+    \caption{Light Curve of \textit{HPM} with Transient ID 1111031520324144272.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/HPM/incorrect/TranID1504211350674136634.png}
+    \caption{Light Curve of \textit{HPM} with Transient ID 1504211350674136634.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/HPM/incorrect/TranID1610241600204126524.png}
+    \caption{Light Curve of \textit{HPM} with Transient ID 1610241600204126524.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/eight_class/HPM/incorrect/TranID1204011230584135800.png}
+    \caption{Light Curve of \textit{HPM} with Transient ID 1204011230584135800.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified HPM sources in the Eight-Class Classification task.}
+  \label{fig:eight_class_HPM_incorrect}
+\end{figure}

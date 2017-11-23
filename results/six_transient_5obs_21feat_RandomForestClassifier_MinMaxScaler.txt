@@ -1,0 +1,32 @@
+Train Shapes (X, y):  (2304, 21), (2304,)
+Test Shapes (X, y):  (1136, 21), (1136,)
+Unique classes: ['AGN' 'Blazar' 'CV' 'Flare' 'HPM' 'SN']
+Unique count: [286 159 577 139 276 867]
+Best Params: {'max_features': 'auto', 'n_estimators': 200}
+Validation Accuracy: 0.7322
+Test Accuracy: 0.7403
+Report:
+              precision    recall  f1-score   support
+
+        AGN     0.7500    0.7872    0.7682       141
+     Blazar     0.6591    0.3718    0.4754        78
+         CV     0.7706    0.6246    0.6899       285
+      Flare     0.6531    0.4706    0.5470        68
+        HPM     0.9624    0.9412    0.9517       136
+         SN     0.6836    0.8481    0.7570       428
+
+avg / total     0.7435    0.7403    0.7330      1136
+Confusion Matrix:
+ [[111   5   3   2   0  20]
+ [ 12  29  15   0   0  22]
+ [  7   5 178   1   0  94]
+ [  2   0   6  32   3  25]
+ [  0   0   0   1 128   7]
+ [ 16   5  29  13   2 363]]
+Normalized Confusion Matrix:
+ [[ 78.72   3.55   2.13   1.42   0.    14.18]
+ [ 15.38  37.18  19.23   0.     0.    28.21]
+ [  2.46   1.75  62.46   0.35   0.    32.98]
+ [  2.94   0.     8.82  47.06   4.41  36.76]
+ [  0.     0.     0.     0.74  94.12   5.15]
+ [  3.74   1.17   6.78   3.04   0.47  84.81]]

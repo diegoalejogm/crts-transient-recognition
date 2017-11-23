@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Flare/incorrect/TranID1409241071204136582.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1409241071204136582.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Flare/incorrect/TranID1012061010234104635.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1012061010234104635.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Flare/incorrect/TranID1310011070234114365.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1310011070234114365.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/seven_transient/Flare/incorrect/TranID1605061430534126099.png}
+    \caption{Light Curve of \textit{Flare} with Transient ID 1605061430534126099.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified Flare sources in the Seven-Transient Classification task.}
+  \label{fig:seven_transient_Flare_incorrect}
+\end{figure}

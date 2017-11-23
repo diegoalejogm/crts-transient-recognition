@@ -1,0 +1,20 @@
+Train Shapes (X, y):  (5874, 21), (5874,)
+Test Shapes (X, y):  (2894, 21), (2894,)
+Unique classes: ['non-transient' 'transient']
+Unique count: [2937 2937]
+Best Params: {'max_features': 'auto', 'n_estimators': 200}
+Validation Accuracy: 0.8567
+Test Accuracy: 0.8645
+Report:
+                precision    recall  f1-score   support
+
+non-transient     0.8384    0.9032    0.8696      1447
+    transient     0.8951    0.8258    0.8591      1447
+
+  avg / total     0.8667    0.8645    0.8643      2894
+Confusion Matrix:
+ [[1307  140]
+ [ 252 1195]]
+Normalized Confusion Matrix:
+ [[ 90.32   9.68]
+ [ 17.42  82.58]]

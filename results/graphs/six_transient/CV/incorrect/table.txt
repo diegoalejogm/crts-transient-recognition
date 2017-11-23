@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/CV/incorrect/TranID1006021180014134943.png}
+    \caption{Light Curve of \textit{CV} with Transient ID 1006021180014134943.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/CV/incorrect/TranID1411180090094108372.png}
+    \caption{Light Curve of \textit{CV} with Transient ID 1411180090094108372.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/CV/incorrect/TranID1005131430674125159.png}
+    \caption{Light Curve of \textit{CV} with Transient ID 1005131430674125159.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/CV/incorrect/TranID1505111460694112418.png}
+    \caption{Light Curve of \textit{CV} with Transient ID 1505111460694112418.}
+  \end{subfigure}
+  \caption{Light Curves of four incorrectly classified CV sources in the Six-Transient Classification task.}
+  \label{fig:six_transient_CV_incorrect}
+\end{figure}

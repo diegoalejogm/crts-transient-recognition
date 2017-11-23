@@ -1,0 +1,21 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/AGN/correct/TranID1401101430404116869.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1401101430404116869.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/AGN/correct/TranID1210191210034106470.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1210191210034106470.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/AGN/correct/TranID1503131380534110321.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1503131380534110321.}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/six_transient/AGN/correct/TranID1303031120634108415.png}
+    \caption{Light Curve of \textit{AGN} with Transient ID 1303031120634108415.}
+  \end{subfigure}
+  \caption{Light Curves of four correctly classified AGN sources in the Six-Transient Classification task.}
+  \label{fig:six_transient_AGN_correct}
+\end{figure}
