@@ -10,7 +10,7 @@ State of the art results were obtained by applying the proposed methodology. Ran
 - Six-Transient + Non-Transient Classification: 77.31%
 - Seven-Transient + Non-Transient Classification: 67.23%
 
-For a brief explanation of the methodology, results and conclusions reached in this project, I invite you to check out this brief presentation https://goo.gl/kHqQem.
+For a brief explanation of the methodology, results and conclusions reached in this project, I invite you to check out this [brief presentation](https://goo.gl/kHqQem).
 
 For the full thesis document, check out this [file](https://github.com/diegoalejogm/crts-transient-recognition/blob/master/Transient_Recognition_Thesis.pdf).
 
