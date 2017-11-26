@@ -1,6 +1,6 @@
 # Transient Event Recognition
 
-This project contains the implementation used for Astronomical Transient Event Recognition using Machine Learning. It is a research project at [Universidad de los Andes] (https://uniandes.edu.co) developed by me, and having as supervisors: [Marcela Hernández](https://scholar.google.com.co/citations?user=9nnSYmMAAAAJ&hl=es&oi=ao), [Pablo Arbeláez](https://scholar.google.com.co/citations?user=k0nZO90AAAAJ&hl=es) and [Jaime Forero](https://scholar.google.com.co/citations?user=TLTK6WgAAAAJ&hl=es). This project is also my undergraduate thesis.
+This project contains the implementation used for Astronomical Transient Event Recognition using Machine Learning. It is a research project at [Universidad de los Andes](https://uniandes.edu.co) developed by me, and having as supervisors: [Marcela Hernández](https://scholar.google.com.co/citations?user=9nnSYmMAAAAJ&hl=es&oi=ao), [Pablo Arbeláez](https://scholar.google.com.co/citations?user=k0nZO90AAAAJ&hl=es) and [Jaime Forero](https://scholar.google.com.co/citations?user=TLTK6WgAAAAJ&hl=es). This project is also my undergraduate thesis.
 
 State of the art results were obtained by applying the proposed methodology. Random forests wre the best performing models, obtaining the following recall scores:
 
@@ -16,11 +16,11 @@ For the full thesis document, check out this [file](https://github.com/diegoalej
 
 ## Data Used
 
-The input data used in this project can be found in the folder [/data](https://github.com/diegoalejogm/crts-transient-recognition/tree/master/data). It was obtained from the [Catalina Real Time Transient Survey](http://crts.caltech.edu). Raw transient dataset consists of a light curve pandas dataframe and a transient catalogue. On the other hand, non-transient raw data is composed by a light curve dataframe only.
+The input data used in this project can be found in the folder [data](https://github.com/diegoalejogm/crts-transient-recognition/tree/master/data). It was obtained from the [Catalina Real Time Transient Survey](http://crts.caltech.edu). Raw transient dataset consists of a light curve pandas dataframe and a transient catalogue. On the other hand, non-transient raw data is composed by a light curve dataframe only.
 
 ## Methodology
 
-The methodology proposed in this project can be found in the [/notebooks](https://github.com/diegoalejogm/crts-transient-recognition/tree/master/notebooks) directory. The approach proposed in this research is briefly summarized next. It is recommended to read the full thesis document in the link above:
+The methodology proposed in this project can be found in the [notebooks](https://github.com/diegoalejogm/crts-transient-recognition/tree/master/notebooks) directory. The approach proposed in this research is briefly summarized next. It is recommended to read the full thesis document in the link above:
 
 - **Filtering:** Light curves were filtered in order to have subsets with enough observations. Two subsets of light curves were obtained, by filtering by those having at least 5 and 10 observations minimum, respectively.
 - **Oversampling:** For each one of the filtered datasets, a new dataset containing balanced amount of light curves for each transient class was created by executing an oversampling a process. This process consited in using a Gaussian probability distribution for each observation of every light curve in the dataset. Such distribution had the magnitude as its mean and the error as its variance (sigma).
