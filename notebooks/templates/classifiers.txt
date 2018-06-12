@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Classifier}     & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Min.\\ observations\end{tabular}} & \multicolumn{3}{c|}{$score_name}           \\ \cline{3-5}
+                                &                                                                              & 20 feat.    & 26 feat.    & 30 feat.       \\ \hline \hline
+\multirow{2}{*}{SVM}            & 5                                                                            & $svc_5_20   & $svc_5_26   & $svc_5_30      \\ \cline{2-5}
+                                & 10                                                                           & $svc_10_20  & $svc_10_26  & $svc_10_30     \\ \hline
+\multirow{2}{*}{Random Forest}  & 5                                                                            & $rf_5_20    & $rf_5_26    & $rf_5_30       \\ \cline{2-5}
+                                & 10                                                                           & $rf_10_20   & $rf_10_26   & $rf_10_30      \\ \hline
+\multirow{2}{*}{Neural Network} & 5                                                                            & $mlp_5_20   & $mlp_5_26   & $mlp_5_30      \\ \cline{2-5}
+                                & 10                                                                           & $mlp_10_20  & $mlp_10_26  & $mlp_10_30     \\ \hline
+\end{tabular}
+\caption{$score_name for the $task_name Classification Task with $is_oversampled inputs.}
+\label{Classifier-Scores-$task_name-$is_oversampled}
+\end{table}

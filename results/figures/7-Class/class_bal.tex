@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Classifier}     & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Min.\\ observations\end{tabular}} & \multicolumn{3}{c|}{F1-Score}           \\ \cline{3-5}
+                                &                                                                              & 20 feat.    & 26 feat.    & 30 feat.       \\ \hline \hline
+\multirow{2}{*}{SVM}            & 5                                                                            & 64.45   & 65.39   & 65.43      \\ \cline{2-5}
+                                & 10                                                                           & 64.24  & 65.85  & 65.53     \\ \hline
+\multirow{2}{*}{Random Forest}  & 5                                                                            & 67.13    & 73.18    & 72.10       \\ \cline{2-5}
+                                & 10                                                                           & 65.49   & 73.46   & 73.79      \\ \hline
+\multirow{2}{*}{Neural Network} & 5                                                                            & 62.91   & 64.29   & 64.90      \\ \cline{2-5}
+                                & 10                                                                           & 62.99  & 67.11  & 68.07     \\ \hline
+\end{tabular}
+\caption{F1-Score for the 7-Class Classification Task with balanced inputs.}
+\label{Classifier-Scores-7-Class-balanced}
+\end{table}

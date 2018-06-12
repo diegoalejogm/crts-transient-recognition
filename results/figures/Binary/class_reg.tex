@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Classifier}     & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Min.\\ observations\end{tabular}} & \multicolumn{3}{c|}{F1-Score}           \\ \cline{3-5}
+                                &                                                                              & 20 feat.    & 26 feat.    & 30 feat.       \\ \hline \hline
+\multirow{2}{*}{SVM}            & 5                                                                            & 84.35   & 84.76   & 84.80      \\ \cline{2-5}
+                                & 10                                                                           & 84.66  & 85.36  & 85.17     \\ \hline
+\multirow{2}{*}{Random Forest}  & 5                                                                            & 84.91    & 87.54    & 87.69       \\ \cline{2-5}
+                                & 10                                                                           & 84.40   & 86.94   & 87.27      \\ \hline
+\multirow{2}{*}{Neural Network} & 5                                                                            & 84.40   & 84.88   & 84.93      \\ \cline{2-5}
+                                & 10                                                                           & 84.32  & 85.03  & 84.13     \\ \hline
+\end{tabular}
+\caption{F1-Score for the Binary Classification Task with balanced inputs.}
+\label{Classifier-Scores-Binary-balanced}
+\end{table}

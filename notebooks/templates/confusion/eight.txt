@@ -1,0 +1,17 @@
+\begin{table*}
+\centering
+\begin{tabular}{|r|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|l|}{} & $name_0    & $name_1    & $name_2   & $name_3   & $name_4   & $name_5   & $name_6   & $name_7  \\ \hline \hline
+$name_0                & $a0_0       & $a0_1       & $a0_2      & $a0_3      & $a0_4      & $a0_5      & $a0_6      & $a0_7     \\ \hline
+$name_1                & $a1_0       & $a1_1       & $a1_2      & $a1_3      & $a1_4      & $a1_5      & $a1_6      & $a1_7     \\ \hline
+$name_2                & $a2_0       & $a2_1       & $a2_2      & $a2_3      & $a2_4      & $a2_5      & $a2_6      & $a2_7     \\ \hline
+$name_3                & $a3_0       & $a3_1       & $a3_2      & $a3_3      & $a3_4      & $a3_5      & $a3_6      & $a3_7     \\ \hline
+$name_4                & $a4_0       & $a4_1       & $a4_2      & $a4_3      & $a4_4      & $a4_5      & $a4_6      & $a4_7     \\ \hline
+$name_5                & $a5_0       & $a5_1       & $a5_2      & $a5_3      & $a5_4      & $a5_5      & $a5_6      & $a5_7     \\ \hline
+$name_6                & $a6_0       & $a6_1       & $a6_2      & $a6_3      & $a6_4      & $a6_5      & $a6_6      & $a6_7     \\ \hline
+$name_7                & $a7_0       & $a7_1       & $a7_2      & $a7_3      & $a7_4      & $a7_5      & $a7_6      & $a7_7     \\ \hline
+\end{tabular}
+\caption{Confusion Matrix for the best performing model in the $task_name task.}
+\label{Confusion-$task_name}
+\end{table*}

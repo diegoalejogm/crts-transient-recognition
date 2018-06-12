@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\begin{tabular}{|r|c|c|c|c|}
+\hline
+\multicolumn{1}{|l|}{} & Precision & Recall & f1-Score & Support \\ \hline \hline
+AGN                    & $agn_precision              & $agn_recall             & $agn_fscore             & $agn_support             \\ \hline
+Blazar                 & $blazar_precision           & $blazar_recall          & $blazar_fscore          & $blazar_support          \\ \hline
+CV                     & $cv_precision               & $cv_recall              & $cv_fscore              & $cv_support              \\ \hline
+Flare                  & $flare_precision            & $flare_recall           & $flare_fscore           & $flare_support           \\ \hline
+HPM                    & $hpm_precision              & $hpm_recall             & $hpm_fscore             & $hpm_support             \\ \hline
+Non-Transient          & $nontransient_precision    & $nontransient_recall   & $nontransient_fscore   & $nontransient_support   \\ \hline
+Other                  & $other_precision            & $other_recall           & $other_fscore           & $other_support           \\ \hline
+SN                     & $sn_precision               & $sn_recall              & $sn_fscore              & $sn_support              \\ \hline
+avg/total              & $total_precision            & $total_recall           & $total_fscore           & $total_support           \\ \hline
+\end{tabular}
+\caption{Precision, Recall and f1-score for the $task_name Classification Task with $is_oversampled inputs.}
+\label{Overall-Scores-$task_name-$is_oversampled}
+\end{table}

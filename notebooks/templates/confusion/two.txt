@@ -1,0 +1,11 @@
+\begin{table}
+\centering
+\begin{tabular}{|r|c|c|}
+\hline
+\multicolumn{1}{|l|}{} & non-transient    & transient   \\ \hline \hline
+non-transient                & $a0_0       & $a0_1    \\ \hline
+transient                    & $a1_0       & $a1_1    \\ \hline
+\end{tabular}
+\caption{Confusion Matrix for the best performing model in the $task_name task.}
+\label{Confusion-$task_name}
+\end{table}

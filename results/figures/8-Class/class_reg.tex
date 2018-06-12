@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Classifier}     & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Min.\\ observations\end{tabular}} & \multicolumn{3}{c|}{F1-Score}           \\ \cline{3-5}
+                                &                                                                              & 20 feat.    & 26 feat.    & 30 feat.       \\ \hline \hline
+\multirow{2}{*}{SVM}            & 5                                                                            & 53.73   & 53.80   & 53.44      \\ \cline{2-5}
+                                & 10                                                                           & 56.48  & 57.20  & 57.30     \\ \hline
+\multirow{2}{*}{Random Forest}  & 5                                                                            & 60.24    & 62.92    & 63.11       \\ \cline{2-5}
+                                & 10                                                                           & 60.27   & 65.26   & 66.05      \\ \hline
+\multirow{2}{*}{Neural Network} & 5                                                                            & 56.69   & 56.29   & 57.88      \\ \cline{2-5}
+                                & 10                                                                           & 59.66  & 59.23  & 60.19     \\ \hline
+\end{tabular}
+\caption{F1-Score for the 8-Class Classification Task with unbalanced inputs.}
+\label{Classifier-Scores-8-Class-unbalanced}
+\end{table}

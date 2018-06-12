@@ -1,0 +1,16 @@
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{Classifier}     & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Min.\\ observations\end{tabular}} & \multicolumn{3}{c|}{F1-Score}           \\ \cline{3-5}
+                                &                                                                              & 20 feat.    & 26 feat.    & 30 feat.       \\ \hline \hline
+\multirow{2}{*}{SVM}            & 5                                                                            & 56.91   & 56.66   & 56.35      \\ \cline{2-5}
+                                & 10                                                                           & 56.23  & 58.62  & 58.56     \\ \hline
+\multirow{2}{*}{Random Forest}  & 5                                                                            & 59.71    & 63.41    & 63.49       \\ \cline{2-5}
+                                & 10                                                                           & 59.73   & 65.29   & 66.39      \\ \hline
+\multirow{2}{*}{Neural Network} & 5                                                                            & 58.30   & 59.31   & 56.68      \\ \cline{2-5}
+                                & 10                                                                           & 57.65  & 58.38  & 59.53     \\ \hline
+\end{tabular}
+\caption{F1-Score for the 7-Transient Classification Task with balanced inputs.}
+\label{Classifier-Scores-7-Transient-balanced}
+\end{table}
