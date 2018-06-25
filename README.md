@@ -2,13 +2,13 @@
 
 This project contains the implementation used for Astronomical Transient Event Recognition using Machine Learning. It is a research project at [Universidad de los Andes](https://uniandes.edu.co) developed by me, and having as supervisors: [Marcela Hernández](https://scholar.google.com.co/citations?user=9nnSYmMAAAAJ&hl=es&oi=ao), [Pablo Arbeláez](https://scholar.google.com.co/citations?user=k0nZO90AAAAJ&hl=es) and [Jaime Forero](https://scholar.google.com.co/citations?user=TLTK6WgAAAAJ&hl=es). This project is also my undergraduate thesis.
 
-State of the art results were obtained by applying the proposed methodology. Random forests wre the best performing models, obtaining the following recall scores:
+State of the art results were obtained by applying the proposed methodology. Random forests were the best performing models, obtaining the following f1 scores:
 
-- Binary Classification: 89.39%
-- Six-Transient Classification: 77.86%
-- Seven-Transient Classification: 66.91%
-- Six-Transient + Non-Transient Classification: 77.31%
-- Seven-Transient + Non-Transient Classification: 67.23%
+- Binary Classification: 87.27%
+- Six-Transient Classification: 77.54%
+- Seven-Transient Classification: 66.39%
+- Six-Transient + Non-Transient Classification: 75.05%
+- Seven-Transient + Non-Transient Classification: 66.05%
 
 For a brief explanation of the methodology, results and conclusions reached in this project, I invite you to check out this [brief presentation](https://goo.gl/kHqQem).
 
